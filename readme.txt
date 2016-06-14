@@ -1,2 +1,2 @@
-scrapy抓取招聘网站内容
+scrapy抓取图片
 
