@@ -13,7 +13,7 @@ class SisySpider(scrapy.Spider):
 
     def parse(self, response):
         
-        urls = [20317]
+        urls = [20317,19181,18515,15256,15175,14802,12546,11297,9626,7714,7642,7425]
         i = 1
         while i <= 60:
             for prefix in urls:

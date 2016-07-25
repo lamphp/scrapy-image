@@ -4,7 +4,6 @@ from __builtin__ import True
 BOT_NAME = 'images'
 
 SPIDER_MODULES  = ['images.spiders']
-COMMANDS_MODULE = 'images.commands'
 
 #增加并发
 CONCURRENT_REQUESTS=100
@@ -19,9 +18,9 @@ ITEM_PIPELINES = {
     'images.pipelines.SisyPipeline': 100,
 }
 
-LOG_FILE = '/var/logs/scrapy.log'
+LOG_FILE = '/var/log/scrapy.log'
 #图片相关配置
-IMAGES_STORE      = '/data/uplaod/sisy'
+IMAGES_STORE      = '/data/upload/sisy'
 IMAGES_EXPIRES    = 30
 IMAGES_MIN_HEIGHT = 1
 IMAGES_MIN_WIDTH  = 1

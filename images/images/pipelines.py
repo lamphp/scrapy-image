@@ -1,7 +1,7 @@
 #coding:utf-8
 #scrapy crawl news -s LOG_FILE=scrapy.log
 
-from images.items import NewsItem, PicItem
+from images.items import SisyItem
 from scrapy.pipelines.images import ImagesPipeline
 from scrapy.exceptions import DropItem
 import scrapy
