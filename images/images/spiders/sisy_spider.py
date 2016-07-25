@@ -15,7 +15,7 @@ class SisySpider(scrapy.Spider):
         
         urls = [20317,19181,18515,15256,15175,14802,12546,11297,9626,7714,7642,7425]
         i = 1
-        while i <= 60:
+        while i <= 100:
             for prefix in urls:
                 url = 'http://www.aitaotu.com/guonei/'+str(prefix)+'_'+str(i)+'.html'
                 yield scrapy.Request(url, callback=self.parse_item) 
