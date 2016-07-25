@@ -1,3 +1,3 @@
 scrapy抓取图片
-cd images 
+cd scrapy-image/images 
 scrapy crawl sisy
